@@ -1,0 +1,56 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.content{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.top{
+	width: 100%;
+	background-color: #236d97;
+	text-align: center;
+	padding: 5px;
+	color: #fff;
+}
+
+.conversor{
+	padding: 10px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-items: center;
+	max-width: 520px;
+}
+
+.dolar input, .real input{
+	width: 180px;
+	font-size: 100%;
+	
+}
+
+.dolar, .real{
+	display: flex;
+	justify-content: space-between;
+	font-size: 35px;
+	padding: 5px;
+}
+.dolar label, .real label{
+	font: inherit;
+	margin-right: 10px;
+}
+.val{
+	padding-top:30px;
+}
+.val input{
+	border:0;
+	border-bottom: 1px solid #000;
+	width: 50px;
+	margin-right: 10px;
+}
