@@ -3,7 +3,11 @@
 	padding: 0;
 	font-family: 'Open Sans', sans-serif;
 }
+html{
+	height: 100%;
+}
 body{
+	height: 100%;
 	background-color: #eeeded;
 }
 input{
@@ -12,16 +16,16 @@ input{
 .content{
 	display: flex;
 	flex-direction: column;
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	align-items: center;
-	justify-content: center;
+	height: 100%;
 }
 
 .top{
 	width: 100%;
 	background-color: #8a05be;
 	text-align: center;
-	padding: 5px;
+	padding: 5px 0;
 	color: #fff;
 }
 
@@ -33,9 +37,8 @@ input{
 	align-items: center;
 	max-width: 556px;
 	top:50%;
-	position: absolute;
-	transform: translateY(-50%);
 	color:#747474;
+	margin: auto;
 }
 
 .dolar input, .real input{
