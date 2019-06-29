@@ -117,9 +117,9 @@ $ptax.value = numToStr(dolar);
 $iof.value = numToStr(defaultIof);
 $spread.value = numToStr(defaultSpread);
 
-window.onload((() =>{
+window.onload = () =>{
     $usd.value = '1';
     usdToBrl();
-    })());
+    };
 })()
 
