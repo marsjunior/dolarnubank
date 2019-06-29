@@ -43,7 +43,6 @@ input{
 	font-size: 100%;
 	border: 1px solid #ccc;
 	padding: 0 7px;
-
 	color:#747474;
 }
 
@@ -69,6 +68,7 @@ input{
 	border-bottom: 1px solid #ccc;
 	width: 50px;
 	margin-right: 10px;
+	color:#747474;
 }
 .spread, .iof, .dolarptax{
 	margin-bottom: 15px;
