@@ -3,6 +3,10 @@
 <head>
 	<title>Dolar Nubank</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
+	<meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">
 		<!-- Global site tag (gtag.js) - Google Analytics -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-118294898-2"></script>
@@ -22,12 +26,18 @@
 			<div class="dolar"><label>US$</label><input type="text" id="dolar"></div>
 			<div class="real"><label>R$</label><input type="text" id="real"></div>
 			<div class="val">
-				<label for="ptax">Dólar PTAX</label>
-				<input type="text" id="ptax">
-				<label for="ptax">IOF (%)</label>
-				<input type="text" id="iof">
-				<label for="ptax">Spread (%)</label>
-				<input type="text" id="spread">
+				<div class="dolarptax">
+					<label for="ptax">Dólar PTAX</label>
+					<input type="text" id="ptax">
+				</div>
+				<div class="iof">
+					<label for="ptax">IOF (%)</label>
+					<input type="text" id="iof">
+				</div>
+				<div>
+					<label for="ptax">Spread (%)</label>
+					<input type="text" id="spread">
+				</div>
 			</div>
 		</div>
 	</div>
